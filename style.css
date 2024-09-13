@@ -1,0 +1,638 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Ropa Sans";
+}
+/* nav section style start here */
+
+.banner-bg{
+  background: #052E16;
+  width: 100%;
+  height: 650px;
+}
+.text-primay{
+  font-family: "Ropa Sans";
+}
+.text-primay-2{
+  font-family: "Style Script";
+}
+.primary-color{
+  color: #EAB308;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  background: #052E16;
+  color: white;
+  width: 1200px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  padding: 20px 0px;
+}
+.nav-left h1{
+  font-family: "Style Script";
+  font-size: 30px;
+  font-weight: 700;
+}
+.nav-right ul{
+  display: flex;
+ 
+}
+.nav-right ul li{
+  list-style: none;
+}
+.nav-right ul li a{
+  text-decoration: none;
+  color: white;
+  font-family:"Ropa Sans" ;
+  padding-left: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 1s;
+}
+
+#home-btn a{
+  color: #EAB308 ;
+}
+.nav-right ul li a:hover{
+  color:#EAB308 ;
+
+}
+
+/* nav section style end here */
+/* banner section style start here */
+.banner-section-container{
+  display: flex;
+  margin: auto;
+  width: 1200px;
+  color: white;
+  height: 500px;
+
+}
+.banner-left{
+  background: #052E16;
+  width: 50%;
+}
+.banner-left h1{
+  font-family: "Ropa Sans";
+  font-size: 45px;
+  font-weight: 700;
+  padding-top: 50px;
+  word-spacing: 10px;
+  line-height: 50px;
+  
+}
+.title-color{
+  color: #EAB308;
+  font-family: "Ropa Sans";
+}
+.banner-left p{
+  font-family: "Style Script";
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+.banner-btn-section{
+  display: flex;
+  gap: 20px;
+
+}
+.shop-now-btn{
+  background: #EAB308;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 14px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+
+.know-more-btn{
+  background: transparent;
+  color: white;
+  padding: 9px 18px;
+  font-size: 18px;
+  border-radius: 14px;
+  font-weight: 600;
+  border: 2px solid #EAB308;
+ 
+}
+.social-icon-container{
+  display: flex;
+  color: white;
+  font-size: 20px;
+  gap: 20px;
+}
+.social-icon-container i{
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 50%;
+  transition: 1s;
+}
+.social-icon-container i:hover{
+  cursor: pointer;
+  background: #EAB308;
+  color: black;
+}
+.banner-right{
+  width: 50%;
+  display: flex;
+ justify-content: flex-end;
+ background: radial-gradient(circle at center,#094622, #052E16);
+ position: relative;
+ 
+
+}
+.banner-right img{
+ 
+  width: 90%;
+  height: 100%;
+  background-size: cover;
+  background-position:  center;
+  
+}
+.leap-1{
+  position: absolute;
+  font-size: 60px;
+  color: #eab2087b;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.leap-2{
+  position: absolute;
+  font-size: 60px;
+  color: #eab2087b;
+  margin-top: 117px;
+  margin-right: 560px;
+}
+
+
+.leap-3{
+  position: absolute;
+  font-size: 60px;
+  color: #eab2087b;
+  margin-top: 450px;
+  margin-right: 500px;
+}
+
+
+/* banner section style end here */
+
+/* card section style start here */
+.card-section-container{
+  display: flex;
+  margin: auto;
+ justify-content: space-between;
+  width: 1200px;
+  height: 350px;
+  align-items: center;
+  color: #14532D;
+}
+.card{
+  border: 1px solid green;
+  height: 200px;
+  width: 280px;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+.card:hover{
+ box-shadow: 0px 5px 15px black;
+ transition: 1s;
+
+
+}
+
+.card-title{
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+.delivery{
+  font-size: 40px ;
+}
+.card-heading{
+  font-size: 18px;
+}
+.card-des p{
+  padding-top: 15px;
+  font-size: 18px;
+  font-family: "Style Script";
+  text-align: justify;
+}
+/* card section style end here */
+
+/* about us section style start here */
+.about-us-section-container-bg{
+  background: #052E16;
+
+}
+.about-us-section-container{
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.about-us-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+  width: 100%;
+  padding-top: 150px;
+  position: relative;
+
+}
+.about-us-heading h1{
+  font-size: 35px;
+  font-family: "Style Script";
+  color: #EAB308;
+  font-weight: bold;
+}
+.leap{
+  position: absolute;
+  margin-left: 954px;
+  margin-top: -118px;
+}
+.about-us-top-section{
+  display: flex;
+  color: white;
+  width: 100%;
+  padding-top: 20px;
+}
+.about-us-section-left{
+  width: 50%;
+ 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;;
+}
+.about-us-section-left h1{
+  font-size: 30px;
+}
+.about-us-section-left p{
+  font-family: "Style Script";
+  font-size: 18px;
+}
+.about-us-section-top-right{
+  width: 50%;
+ 
+}
+.about-us-section-top-right img{
+  height: 350px;
+  padding-left: 200px;
+ 
+}
+.about-us-section-bottom-right{
+  width: 50%;
+}
+.about-us-section-bottom-right img{
+  height: 350px;
+
+}
+/* about us section style end here */
+
+/* your choice plant section style start here */
+.your-choice-bg{
+  background: #14532D;
+  height: 680px;
+  width: 100%;
+}
+.your-choice-section-container{
+  
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.plant-card{
+  margin-top: 100px;
+  background: #0000007c;
+  height: 300px;
+  width: 250px;
+  color: white;
+  padding: 35px;
+  padding-top: 130px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 8px;
+  
+}
+.plant-card-section{
+  display: flex;
+  justify-content: space-between;
+}
+.plant-card:hover{
+  .plant-img{
+    transform: translateY(-30px);
+    
+  }
+}
+.plant-card:hover{
+  .plant-img-3{
+    transform: translateY(-30px);
+    
+  }
+}
+.plant-card:hover{
+  .plant-img-4{
+    transform: translateY(-30px);
+    
+  }
+}
+.plant-card h1{
+  font-size: 30px;
+}
+.plant-img{
+  position: absolute;
+  transition: 1s;
+}
+
+.plant-img img {
+  height: 250px;
+  margin-top: -390px;
+  margin-left: -21px;
+  width: 248px;
+}
+.plant-img-4{
+  position: absolute;
+  transition: 1s;
+}
+.plant-img-4 img {
+  height: 280px;
+  margin-top: -429px;
+  margin-left: -21px;
+  width: 109%;
+ 
+}
+.plant-img-3{
+  position: absolute;
+  transition: 1s;
+}
+.plant-img-3 img {
+  height: 280px;
+  margin-top: -429px;
+  margin-left: -21px;
+  width: 109%;
+ 
+}
+.check{
+  color: orange;
+  font-size: 15px;
+}
+.half{
+  color: white;
+  font-size: 15px;
+}
+.doller{
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.doller h2{
+  font-size: 25px;
+  font-weight: bold;
+}
+.doller i{
+  font-size: 20px;
+  background: #EAB308;
+  padding: 10px;
+  border-radius: 10px;
+}
+/* your choice plant section style end here */
+/* customer review section style start here */
+.customer-review-section-bg{
+background: #052E16;
+height: 650px;
+}
+.customer-review-heading{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+.leap-left{
+  position: absolute;
+  margin-top: -100px;
+  margin-left: -907px;
+}
+.leap-left img{
+  height: 300px;
+}
+.customer-review-heading h1{
+  font-size: 40px;
+  font-weight: 900;
+  color: #EAB308;
+  font-family: "Style Script";
+}
+.customer-review-heading p{
+  color: white;
+  font-size: 20px;
+}
+.review-card-container{
+  display: flex;
+  margin: auto;
+  width: 1200px;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+.review-card{
+  background: #14532D;
+  height: 200px;
+  width: 350px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.review-card h1{
+  font-size: 18px;
+  color: white;
+  text-align: justify;
+  font-family: "Style Script";
+  padding-bottom: 10px;
+}
+.customer-pic img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.customer-title h2{
+  font-size: 20px;
+  color: #EAB308;
+  font-family: "Ropa Sans";
+
+}
+.customer-title p{
+  color: white;
+}
+.review-customer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customer-section{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.customer-icon i{
+  font-size: 35px;
+  color: white;
+}
+/* customer review section style start here */
+/* subscribe section style start here */
+
+/* subscribe section style end here */
+.subscibe-container{
+  background: #14532D;
+  height: 180px;
+  width: 1200px;
+  position: absolute;
+ border-radius: 15px;
+ padding: 15px 35px;
+ margin-top: -100px;
+}
+.subs-title{
+  font-size: 40px;
+  color: white;
+}
+.subscribe-input-section{
+  display: flex;
+  justify-content: space-between;
+}
+.subscribe-input-section input{
+background: white;
+padding: 15px 10px;
+border-radius: 15px;
+width: 75%;
+}
+.subscribe-btn{
+  width: 20%;
+  background: #052E16;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 15px;
+  padding: 13px 0px;
+}
+
+/* footer section style start here */
+footer{
+  height: 600px;
+  background: #FEF9C3;
+  position: relative;
+}
+.footer-container{
+  width: 1200px;
+  margin: auto;
+  height: 600px;
+}
+.footer-left{
+
+  margin-top: 140px;
+}
+.footer-icon-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+
+  box-sizing: border-box;
+}
+.social-icon-2{
+  margin-top: 140px;
+
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-icon-2 i{
+  font-size: 25px;
+  justify-content: space-between;
+  font-weight: 100px;
+ 
+}
+.custome-hr{
+  height: 4px;
+  background: #14532D;
+  width: 490px;
+}
+.footer-link-container{
+  height: 300px;
+  margin-top: 50px;
+  color: #15803D;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-link{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #15803D;
+}
+.footer-link h1{
+  font-size: 30px;
+  font-family: "Style Script";
+  font-weight: 900;
+}
+.footer-link i{
+  font-size: 100px;
+
+}
+.footer-text-link{
+  width: 300px;
+  height: 300px;
+
+}
+.footer-text-link ul li{
+  margin-bottom: 5px;
+}
+.footer-text-link ul li a{
+  font-size: 20px;
+  
+}
+#heading{
+  margin-bottom: 20px;
+}
+#heading a{
+  font-size: 30px;
+  font-weight: 600;
+
+}
+.copyright{
+  color: #094622;
+  display: flex;
+  justify-content: center;
+}
+/* footer section style end here */
+
+
+
+.text-primay{
+  font-family: "Ropa Sans";
+}
+.text-primay-2{
+  font-family: "Style Script";
+}
+.primary-color{
+  color: #EAB308;
+}
+.banner-bg{
+  background: #052E16;
+  width: 100%;
+}
